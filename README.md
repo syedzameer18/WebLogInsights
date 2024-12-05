@@ -54,7 +54,7 @@ The `log_analysis_results.csv` file contains three sheets:
    - `IP Address`, `Request Count`
 2. # Most Accessed Endpoint
    - `Endpoint`, `Access Count`
-3. **Suspicious Activity**
+3. ## Suspicious Activity
    - `IP Address`, `Failed Login Count`
 
 ---
