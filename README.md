@@ -11,18 +11,17 @@ This Python-based project processes log files to extract, analyze, and report ke
 
 ## Features
 
-1. # Count Requests per IP Address  
+ # 1.Count Requests per IP Address  
    - Analyzes log files to identify the number of requests made by each IP address.
    - Displays results sorted by the highest request count.
 
-2. # Identify the Most Frequently Accessed Endpoint  
+ # 2.Identify the Most Frequently Accessed Endpoint  
    - Extracts and identifies the most accessed resource (e.g., URLs or endpoints) from the log file.
 
-3. # Detect Suspicious Activity  
+ # 3.Detect Suspicious Activity  
    - Identifies potential brute force login attempts based on repeated failed login entries.
    - Flags IP addresses with excessive failed login attempts.
-
-4. # Output Results  
+# 4.Output Results  
    - Displays results in a terminal-friendly format with clear headings.
    - Saves results to a single CSV file named `log_analysis_results.csv` for easy sharing and review.
 
@@ -50,9 +49,9 @@ IP Address       Failed Login Attempts
 
 ### CSV Structure
 The `log_analysis_results.csv` file contains three sheets:
-1. # Requests per IP
+1. ## Requests per IP
    - `IP Address`, `Request Count`
-2. # Most Accessed Endpoint
+2. ## Most Accessed Endpoint
    - `Endpoint`, `Access Count`
 3. ## Suspicious Activity
    - `IP Address`, `Failed Login Count`
@@ -60,7 +59,8 @@ The `log_analysis_results.csv` file contains three sheets:
 ---
 
 ## **Configuration**
-- **Suspicious Activity Threshold**: You can modify the threshold for failed login attempts (default is 10) by changing the variable `FAILED_LOGIN_THRESHOLD` in `log_analysis.py`.
+- # Suspicious Activity Threshold
+-  You can modify the threshold for failed login attempts (default is 10) by changing the variable `FAILED_LOGIN_THRESHOLD` in `log_analysis.py`.
 
 ---
 
