@@ -49,11 +49,11 @@ IP Address       Failed Login Attempts
 
 ### CSV Structure
 The `log_analysis_results.csv` file contains three sheets:
-1. ## Requests per IP
+ ## 1.Requests per IP
    - `IP Address`, `Request Count`
-2. ## Most Accessed Endpoint
+ ## 2.Most Accessed Endpoint
    - `Endpoint`, `Access Count`
-3. ## Suspicious Activity
+ ## 3.Suspicious Activity
    - `IP Address`, `Failed Login Count`
 
 ---
