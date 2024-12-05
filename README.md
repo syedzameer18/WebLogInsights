@@ -15,7 +15,7 @@ This Python-based project processes log files to extract, analyze, and report ke
    - Analyzes log files to identify the number of requests made by each IP address.
    - Displays results sorted by the highest request count.
 
- # 2.Identify the Most Frequently Accessed Endpoint  
+ # 2.Identify the Most Frequently            Accessed Endpoint  
    - Extracts and identifies the most accessed resource (e.g., URLs or endpoints) from the log file.
 
  # 3.Detect Suspicious Activity  
